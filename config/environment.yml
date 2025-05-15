@@ -1,0 +1,27 @@
+name: qedenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - cvxpy-base
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - jupyter_client
+  - jupyter_core
+  - matplotlib
+  - mkl
+  - networkx
+  - numpy
+  - packaging
+  - pandas
+  - pip
+  - scipy
+  - seaborn
+  - tornado
+  - tqdm
+  - pip:
+    - cvxopt
+    - cvxpy
+    - gurobipy
+    - pygsp
